@@ -205,3 +205,49 @@ li {
     left: 30px;
   }
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .education {
+    padding-bottom: 15px;
+  }
+
+  .about-me {
+    padding-top: 15px;
+  }
+
+  .contact {
+    margin-bottom: 370px;
+  }
+
+  .name {
+    position: absolute;
+    top: -915px;
+    right: 10px;
+    left: 10px;
+  }
+
+  .bio {
+    position: absolute;
+    top: -750px;
+    right: 10px;
+    left: 10px;
+  }
+
+  .skills,
+  .education,
+  .about-me {
+    padding: 30px 10px 15px;
+  }
+
+  .profession {
+    padding: 5px 10px;
+  }
+}
