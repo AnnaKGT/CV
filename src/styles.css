@@ -229,14 +229,14 @@ li {
 
   .name {
     position: absolute;
-    top: -915px;
+    top: -880px;
     right: 10px;
     left: 10px;
   }
 
   .bio {
     position: absolute;
-    top: -750px;
+    top: -720px;
     right: 10px;
     left: 10px;
   }
