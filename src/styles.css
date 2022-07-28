@@ -229,14 +229,14 @@ li {
 
   .name {
     position: absolute;
-    top: -880px;
+    top: -840px;
     right: 10px;
     left: 10px;
   }
 
   .bio {
     position: absolute;
-    top: -720px;
+    top: -685px;
     right: 10px;
     left: 10px;
   }
@@ -244,7 +244,7 @@ li {
   .skills,
   .education,
   .about-me {
-    padding: 30px 10px 15px;
+    padding: 10px 10px 10px;
   }
 
   .profession {
