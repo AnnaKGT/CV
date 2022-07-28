@@ -1,3 +1,8 @@
+:root {
+  --blue-background: #171e26;
+  --yellow-background: #fcdb214f;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -84,7 +89,7 @@ li {
 .contact {
   padding-top: 5px;
   padding-bottom: 30px;
-  background-color: #222831;
+  background-color: var(--blue-background);
 }
 
 .contact-title {
@@ -131,7 +136,7 @@ li {
 }
 
 .profession {
-  background-color: #fcdb217d;
+  background-color: var(--yellow-background);
   padding: 5px 40px 5px;
 }
 
