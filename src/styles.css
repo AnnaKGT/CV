@@ -61,7 +61,7 @@ ul {
 
 li {
   list-style: none;
-  padding-top: 10px;
+  padding-top: 15px;
   /* line-height: 1.8em; */
 }
 
@@ -124,11 +124,11 @@ li {
 }
 
 .skills {
-  padding: 30px 0px 15px 30px;
+  padding: 30px 0px 20px 30px;
 }
 
 .education {
-  padding: 15px 0px 40px 30px;
+  padding: 20px 0px 40px 30px;
 }
 
 .name {
@@ -137,11 +137,15 @@ li {
 
 .profession {
   background-color: var(--yellow-background);
-  padding: 5px 40px 5px;
+  padding: 5px 20px 5px;
 }
 
 .work {
   padding: 20px 0 15px 0;
+}
+
+.job-item {
+  padding-top: 20px;
 }
 
 .duty {
@@ -153,19 +157,19 @@ li {
 }
 
 .interests {
-  padding: 25px 0 40px 0;
+  margin: 25px 0 40px 0;
 }
 
 .interest {
   margin: 10px;
-  padding: 15px;
+  padding: 10px;
   border: 1px solid;
   border-radius: 5px;
   text-align: center;
 }
 
 .interest-item {
-  font-size: 28px;
+  font-size: 38px;
   color: #222831;
 }
 
@@ -184,30 +188,12 @@ li {
     font-size: 24px;
   }
 
-  .education {
-    padding-bottom: 15px;
+  .interest {
+    margin: 10px 3px 10px;
   }
 
-  .about-me {
-    padding-top: 15px;
-  }
-
-  .contact {
-    margin-bottom: 370px;
-  }
-
-  .name {
-    position: absolute;
-    top: -950px;
-    right: 30px;
-    left: 30px;
-  }
-
-  .bio {
-    position: absolute;
-    top: -750px;
-    right: 30px;
-    left: 30px;
+  .interest-item {
+    font-size: 18px;
   }
 }
 
@@ -229,19 +215,19 @@ li {
   }
 
   .contact {
-    margin-bottom: 370px;
+    margin-bottom: 450px;
   }
 
   .name {
     position: absolute;
-    top: -910px;
+    top: -1010px;
     right: 10px;
     left: 10px;
   }
 
   .bio {
     position: absolute;
-    top: -760px;
+    top: -810px;
     right: 10px;
     left: 10px;
   }
@@ -249,7 +235,7 @@ li {
   .skills,
   .education,
   .about-me {
-    padding: 10px 10px 10px;
+    padding: 15px 10px 15px;
   }
 
   .profession {
