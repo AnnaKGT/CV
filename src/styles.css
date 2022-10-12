@@ -1,6 +1,6 @@
 :root {
-  --blue-background: #171e26;
-  --yellow-background: #fcdb214f;
+  --blue-background: #090a1a;
+  --light-background: #eaecf49b;
 }
 
 * {
@@ -61,15 +61,17 @@ ul {
 
 li {
   list-style: none;
-  padding-top: 15px;
-  /* line-height: 1.8em; */
+  padding-top: 8px;
+}
+
+p {
+  margin: 0;
 }
 
 .cv-wrapper {
-  /* width: 900px; */
-  margin: 0 auto;
-  /* display: flex; */
-  /* border: solid 1px; */
+  margin: 8px auto;
+  border: 1px solid var(--light-background);
+  border-radius: 8px;
 }
 
 .side {
@@ -82,14 +84,20 @@ li {
   background-size: cover;
   background-position: center top;
 }
-/* .side {
-  width: 300px;
-} */
 
 .contact {
   padding-top: 5px;
   padding-bottom: 30px;
   background-color: var(--blue-background);
+}
+
+.contact-mob {
+  padding: 24px 0;
+  background-color: var(--blue-background);
+}
+
+.contact-mob i {
+  font-size: 24px;
 }
 
 .contact-title {
@@ -105,21 +113,27 @@ li {
   padding: 0;
 }
 
-.linkedin {
+.contact-link {
   color: white;
   text-decoration: none;
 }
 
-.contact-item {
-  margin-left: 10px;
+.contact-link:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.contact-icon {
+  margin-right: 10px;
 }
 
 .skill {
   padding-top: 3px;
+  list-style: inside;
 }
 
 .about-me {
-  padding: 60px 30px 20px 30px;
+  padding: 60px 30px 20px;
   position: relative;
 }
 
@@ -136,7 +150,7 @@ li {
 }
 
 .profession {
-  background-color: var(--yellow-background);
+  background-color: var(--light-background);
   padding: 5px 20px 5px;
 }
 
@@ -145,7 +159,7 @@ li {
 }
 
 .job-item {
-  padding-top: 20px;
+  padding-top: 8px;
 }
 
 .duty {
@@ -158,6 +172,10 @@ li {
 
 .interests {
   margin: 25px 0 40px 0;
+}
+
+.interests-items {
+  margin: 0;
 }
 
 .interest {
@@ -179,13 +197,27 @@ li {
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 997px) {
   h1 {
     font-size: 48px;
   }
 
   h2 {
     font-size: 24px;
+  }
+
+  .about-me {
+    padding: 60px 12px 20px 0;
+  }
+
+  .skills,
+  .education {
+    padding-left: 12px;
+  }
+
+  .contact-list,
+  .contact-title {
+    margin-left: 12px;
   }
 
   .interest {
@@ -197,7 +229,7 @@ li {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   h1 {
     font-size: 36px;
   }
@@ -214,28 +246,13 @@ li {
     padding-top: 15px;
   }
 
-  .contact {
-    margin-bottom: 450px;
-  }
-
-  .name {
-    position: absolute;
-    top: -1010px;
-    right: 10px;
-    left: 10px;
-  }
-
-  .bio {
-    position: absolute;
-    top: -810px;
-    right: 10px;
-    left: 10px;
-  }
-
   .skills,
   .education,
-  .about-me {
-    padding: 15px 10px 15px;
+  .about-me,
+  .name,
+  .bio {
+    padding: 12px 12px 12px;
+    margin: 0;
   }
 
   .profession {
