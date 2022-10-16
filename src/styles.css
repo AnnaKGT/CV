@@ -32,26 +32,30 @@ h2 {
   margin: 0;
 }
 
+h4,
+h5,
+h6 {
+  line-height: 1.6;
+  margin: 3px;
+}
+
 h4 {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  margin: 3px;
 }
 
 h5 {
   font-family: "Lato", sans-serif;
   font-weight: 900;
-  color: rgba(58, 62, 70, 0.4);
   font-size: 14px;
-  margin: 3px;
+  color: rgba(58, 62, 70, 0.4);
 }
 
 h6 {
   font-family: "Lato", sans-serif;
   font-weight: 900;
-  font-size: 12px;
-  margin: 3px;
+  font-size: 14px;
 }
 
 ul {
@@ -61,7 +65,7 @@ ul {
 
 li {
   list-style: none;
-  padding-top: 8px;
+  padding-top: 12px;
 }
 
 p {
@@ -154,12 +158,25 @@ p {
   padding: 5px 20px 5px;
 }
 
+.projects {
+  margin: 24px 0;
+}
+
+.projects li {
+  list-style: inside;
+}
+
+.projects a {
+  text-decoration: none;
+  color: var(--blue-background);
+}
+
 .work {
   padding: 20px 0 15px 0;
 }
 
 .job-item {
-  padding-top: 8px;
+  padding-top: 16px;
 }
 
 .duty {
