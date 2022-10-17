@@ -24,6 +24,7 @@ h3 {
   text-transform: uppercase;
   font-size: 22px;
   font-weight: 700;
+  margin: 0;
 }
 
 h2 {
@@ -143,7 +144,7 @@ p {
 }
 
 .about-me {
-  padding: 60px 30px 20px;
+  padding: 60px 30px 60px;
   position: relative;
 }
 
@@ -157,7 +158,8 @@ p {
 }
 
 .projects,
-.work {
+.work,
+.interests {
   margin: 48px 0 15px 0;
 }
 
@@ -184,10 +186,6 @@ p {
   line-height: 1.5;
   list-style: inside;
   opacity: 0.8;
-}
-
-.interests {
-  margin: 25px 0 40px 0;
 }
 
 .interests-items {
@@ -259,15 +257,17 @@ p {
   }
 
   .about-me {
-    padding-top: 15px;
+    padding: 0;
   }
 
   .skills,
   .education,
-  .about-me,
-  .name,
-  .bio {
-    padding: 12px 12px 12px;
+  .projects,
+  .work,
+  .interests,
+  .bio,
+  .name {
+    padding: 40px 12px 0;
     margin: 0;
   }
 
