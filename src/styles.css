@@ -35,8 +35,8 @@ h2 {
 h4,
 h5,
 h6 {
-  line-height: 1.6;
-  margin: 3px;
+  line-height: 1.8;
+  margin: 0;
 }
 
 h4 {
@@ -65,7 +65,7 @@ ul {
 
 li {
   list-style: none;
-  padding-top: 12px;
+  padding-top: 16px;
 }
 
 p {
@@ -128,25 +128,23 @@ p {
 }
 
 .contact-icon {
+  background-color: var(--blue-background);
   margin-right: 10px;
 }
 
+.skills,
+.education {
+  padding: 48px 0px 0px 30px;
+}
+
 .skill {
-  padding-top: 3px;
+  padding-top: 6px;
   list-style: inside;
 }
 
 .about-me {
   padding: 60px 30px 20px;
   position: relative;
-}
-
-.skills {
-  padding: 30px 0px 20px 30px;
-}
-
-.education {
-  padding: 20px 0px 40px 30px;
 }
 
 .name {
@@ -158,8 +156,9 @@ p {
   padding: 5px 20px 5px;
 }
 
-.projects {
-  margin: 24px 0;
+.projects,
+.work {
+  margin: 48px 0 15px 0;
 }
 
 .projects li {
@@ -171,8 +170,8 @@ p {
   color: var(--blue-background);
 }
 
-.work {
-  padding: 20px 0 15px 0;
+.projects a:hover {
+  text-decoration: underline;
 }
 
 .job-item {
@@ -181,7 +180,7 @@ p {
 
 .duty {
   font-size: 16px;
-  padding-top: 3px;
+  padding-top: 6px;
   line-height: 1.5;
   list-style: inside;
   opacity: 0.8;
